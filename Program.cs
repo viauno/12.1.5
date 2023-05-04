@@ -40,7 +40,6 @@
             user.Name = "Vova";
             Random rnd = new Random();
             int value = rnd.Next(1, 3);
-            Console.WriteLine(value);
             user.IsPremium = value == 1 ? true : false;
             OnLogIn(user.Name, user.IsPremium);
         }
